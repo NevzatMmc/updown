@@ -1,0 +1,29 @@
+# Binaries
+bin/
+*.exe
+
+# Build artifacts
+out/
+
+# Environment (secrets - never commit!)
+.env
+
+# Go build cache
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage.out
+coverage.html
+
+# Air live reload
+tmp/
